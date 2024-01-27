@@ -29,6 +29,8 @@ When i'm testing saml, i've put these configuration to saml applications:
 
 - APP_IDPMETADATAURL (specific for saml application, this app gets xml metadata from this url)
 - APP_ENTITYID (specific for saml application)
+- APP_SIGNREQUEST (optional boolean environment variable to singing auth request)
+
 
 ### Running
 
